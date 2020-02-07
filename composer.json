@@ -1,0 +1,13 @@
+{
+    "name": "taller/versio1",
+    "authors": [
+        {
+            "name": "sebastian"
+            
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+    
+}

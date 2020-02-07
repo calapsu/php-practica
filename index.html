@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Taller 1.0</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    
+    <h1>PODUCTS</h1>
+    <table border="1" id="table_products" class="table">
+        <thead>
+            <tr>
+                <td class="id"> ID</td>
+                <td>Nombre</td>
+                <td>Imagen</td>
+                <td>Fecha</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div class="buttondev">
+        <button  onclick="table_data.queryAjax()">Actualizar</button>
+        <img src="img/loanding2.gif" alt="" width="78px" id="loading">
+    </div>
+    
+</body>
+
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/list_table.js"></script>
